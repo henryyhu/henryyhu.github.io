@@ -42,4 +42,4 @@ h5.hidden {visibility:hidden}
 .code {font: "Courier New", Courier, monospace; font-weight:bold;}
 .col li {line-height:1.7em;}
 
-li { display: inline; list-style: none; }
+#li { display: inline; list-style: none; }

@@ -2,10 +2,17 @@
 /*===  1. CSS Reset    ===*/
 /*========================*/
 
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, img, strong, ol, ul, li, form, input { margin: 0; padding: 0; border: 0; vertical-align: baseline; }
-ul { list-style:none; list-style-position:outside; }
-
-
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, img, strong, ol, li, form, input { margin: 0; padding: 0; border: 0; vertical-align: baseline; }
+ul { list-style:none; list-style-position:inside; margin: 0; padding: 0; border: 0; vertical-align: baseline;}
+li {
+    
+    text-indent: -1em;
+    padding-left: 1em;
+}
+#list22
+{
+ padding-left: 20px;
+}
 /*========================*/
 /*===  2. General      ===*/
 /*========================*/
@@ -354,6 +361,11 @@ ol li, .list li { color:#888; line-height:20px; }
 
 .pic2{
     width:18%;
+	vertical-align: top;
+}
+
+.week{
+    width:20%;
 	vertical-align: top;
 }
 

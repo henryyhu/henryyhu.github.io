@@ -23,10 +23,12 @@ body { background:#fff; font-size: 15.5px; line-height: 20px; font-family: 'Robo
 .inner { width:900px; margin:0 auto; }
 #header, #main, #footer { margin:0 auto; width:100%; }
 
-a { color:#d16f4e; text-decoration:none; transition: color 0.1s linear; -moz-transition: color 0.1s linear; -webkit-transition: color 0.1s linear; -o-transition: color 0.1s linear; }
+a { color:#2A5DB0; text-decoration:none; border-bottom: none; transition: color 0.1s linear; -moz-transition: color 0.1s linear; -webkit-transition: color 0.1s linear; -o-transition: color 0.1s linear; }
 	a:hover { color:#444; }
 	a:active{ outline: none; }
 	a:focus{ outline: none; -moz-outline-style: none; } 
+
+	/* a color: color:#d16f4e;  */
 
 p { display: block; margin-bottom:20px; }
 strong { font-weight:bold; }
@@ -143,9 +145,9 @@ blockquote { color:#aaa; font-size:15px; font-style:italic;  margin:20px 0px 20p
 .nav ul { list-style:none; position:relative; }
 	.nav ul li { float:left; margin-left:15px; position:relative; display:block; font-size:19px; font-weight: bold;}		
 	.nav ul li > a { color:#666; padding:0px 8px; line-height:40px; text-decoration:none; display:block;  }	
-	.nav ul li:hover > a { color:#d16f4e; }
-	.nav ul li.current > a { color:#d16f4e; }
-	.nav ul li.current > a:hover { color:#d16f4e; }
+	.nav ul li:hover > a { color:#2A5DB0; }
+	.nav ul li.current > a { color:#2A5DB0; }
+	.nav ul li.current > a:hover { color:#2A5DB0; }
 
 /*=========================*/
 /*===  6. Main Content  ===*/

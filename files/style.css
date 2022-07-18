@@ -2,33 +2,24 @@
 /*===  1. CSS Reset    ===*/
 /*========================*/
 
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, img, strong, ol, li, form, input { margin: 0; padding: 0; border: 0; vertical-align: baseline; }
-ul { list-style:none; list-style-position:inside; margin: 0; padding: 0; border: 0; vertical-align: baseline;}
-li {
-    
-    text-indent: -1em;
-    padding-left: 1em;
-}
-#list22
-{
- padding-left: 20px;
-}
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, img, strong, ol, ul, li, form, input { margin: 0; padding: 0; border: 0; vertical-align: baseline; }
+ul { list-style:none; list-style-position:outside; }
+
+
 /*========================*/
 /*===  2. General      ===*/
 /*========================*/
 
-body { background:#fff; font-size: 15.5px; line-height: 20px; font-family: 'Roboto', Helvetica, Arial, sans-serif; color:#888;  }
+body { background:#fff; font-size: 15.5px; line-height: 20px; font-family: 'Roboto', Helvetica, Arial, sans-serif; color:#605754; }
 
 #wrapper { width:980px; background:#fff; margin:0 auto; }
 .inner { width:900px; margin:0 auto; }
 #header, #main, #footer { margin:0 auto; width:100%; }
 
-a { color:#2A5DB0; text-decoration:none; border-bottom: none; transition: color 0.1s linear; -moz-transition: color 0.1s linear; -webkit-transition: color 0.1s linear; -o-transition: color 0.1s linear; }
-	a:hover { color:#444; }
+a { color:#3B5AF2; text-decoration:none; transition: color 0.1s linear; -moz-transition: color 0.1s linear; -webkit-transition: color 0.1s linear; -o-transition: color 0.1s linear; }
+	a:hover { color:#A25799; }
 	a:active{ outline: none; }
 	a:focus{ outline: none; -moz-outline-style: none; } 
-
-	/* a color: color:#d16f4e;  */
 
 p { display: block; margin-bottom:20px; }
 strong { font-weight:bold; }
@@ -65,7 +56,7 @@ input, textarea { font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; }
 	.line { border-top:1px dotted #ddd; margin-top:28px; margin-bottom:29px; }
 	.top { text-align: right; border-top:1px dotted #ddd; margin-top:28px; margin-bottom:29px; width:98.35%; }
 	.top a { font-size: 8px; line-height: 20px; position:absolute; right:-14px; top:-10px; color:#bbb; }
-	.top a:hover { color:#d16f4e; }
+	.top a:hover { color:#3B5AF2; }
 	
 
 /*==========================*/
@@ -97,7 +88,7 @@ h5{ font-size:11px; }
 h6{ font-size:10px; }
 
 .title a { color:#444; }
-.title a:hover { color:#d16f4e; }
+.title a:hover { color:#3B5AF2; }
 
 .dropcap1 { color: #444; display: block; float: left; font-size: 40px; line-height: 40px; margin: 0 8px 0 0; }
 .dropcap2 { width:40px; height:40px; background:url(../img/dropcap.png) no-repeat; color:#fff; font-size:30px; text-align:center; line-height:40px; display: block; float: left; margin: 0 8px 0 0; }
@@ -125,7 +116,7 @@ blockquote { color:#aaa; font-size:15px; font-style:italic;  margin:20px 0px 20p
 
 .box { padding:19px 16px; border:1px solid #ddd; text-align:center; margin-bottom:30px; }
 	.box-grey { border-color:#ddd; color:#666; }
-	.box-orange { border-color:#ffcc99; color:#ff9966; }
+	.box-orange { border-color:#ffcc99; color:#3B5AF2; }
 	
 	
 /*========================*/
@@ -145,16 +136,16 @@ blockquote { color:#aaa; font-size:15px; font-style:italic;  margin:20px 0px 20p
 .nav ul { list-style:none; position:relative; }
 	.nav ul li { float:left; margin-left:15px; position:relative; display:block; font-size:19px; font-weight: bold;}		
 	.nav ul li > a { color:#666; padding:0px 8px; line-height:40px; text-decoration:none; display:block;  }	
-	.nav ul li:hover > a { color:#2A5DB0; }
-	.nav ul li.current > a { color:#2A5DB0; }
-	.nav ul li.current > a:hover { color:#2A5DB0; }
+	.nav ul li:hover > a { color:#3B5AF2; }
+	.nav ul li.current > a { color:#3B5AF2; }
+	.nav ul li.current > a:hover { color:#3B5AF2; }
 
 /*=========================*/
 /*===  6. Main Content  ===*/
 /*=========================*/
 
-.home_tagline h1 { text-align:center; font-size:32px; line-height:40px; color:#888; }
-.home_tagline h1 a { color:#d16f4e; }
+.home_tagline h1 { text-align:center; font-size:32px; line-height:40px; color:#605754; }
+.home_tagline h1 a { color:#3B5AF2; }
 .home_tagline h1 a:hover { color:#444; }
 
 .static { margin-bottom:30px; }
@@ -180,7 +171,7 @@ blockquote { color:#aaa; font-size:15px; font-style:italic;  margin:20px 0px 20p
 
 #recent-posts p { margin-bottom:0px; background:#fff; }
 #recent-posts h5 { line-height:10px; margin-bottom:10px; }
-#recent-posts span.post-info { float:none; background:#fff; margin:0px; font-style:italic; color:#b0b0b0; display:block; margin-top:-8px; font-size:11px; }
+#recent-posts span.post-info { float:none; background:#fff; margin:0px; font-style:italic; color:#716965; display:block; margin-top:-8px; font-size:11px; }
 
 #recent-work .one_third,#recent-work .one_fourth,#recent-posts .one_third,#recent-posts .one_fourth,#homepage-item .one_third,#homepage-item .one_fourth { margin-bottom:0px; }
 
@@ -208,7 +199,7 @@ blockquote { color:#aaa; font-size:15px; font-style:italic;  margin:20px 0px 20p
 .zoom { background:#fff url(../img/over_zoom.png) no-repeat center center; }
 
 .item-name { display:block; margin-left:7px; margin-bottom:4px; }
-	.item-name p { color:#888; font-size:11px; margin-bottom:4px; }
+	.item-name p { color:#605754; font-size:11px; margin-bottom:4px; }
 	.item-name .title { margin-top:10px; }	
 	.item-name h4, .item-name h3 { margin-bottom:6px; }
 	.item-name > a { font-size:11px; }
@@ -243,7 +234,7 @@ blockquote { color:#aaa; font-size:15px; font-style:italic;  margin:20px 0px 20p
 
 .filter { padding-bottom:40px; }
 .filter li { float:left; padding-right:10px; border-right:1px solid #ddd; margin-right:10px; font-size:12px; line-height:12px; }
-.filter li a { color:#888; }
+.filter li a { color:#605754; }
 .filter li:last-child { border:0px; }
 .filter li.current a { color:#d16f4e; }
 
@@ -258,7 +249,7 @@ blockquote { color:#aaa; font-size:15px; font-style:italic;  margin:20px 0px 20p
 
 #footer ul { list-style-type: none; list-style-position: outside; }
 	
-#footer ul.links li a { color:#888; display:block; font-size:12px; line-height:20px; padding:0px 0px 8px 0px; }
+#footer ul.links li a { color:#605754; display:block; font-size:12px; line-height:20px; padding:0px 0px 8px 0px; }
 
 #tweet li { margin-bottom:10px; }
 #tweet .twitter-content { padding:10px; background:#e6e6e6; font-size:11px; font-style:italic; }
@@ -315,7 +306,7 @@ blockquote { color:#aaa; font-size:15px; font-style:italic;  margin:20px 0px 20p
 /*========================*/
 
 ol, .list { list-style:inside none; margin-bottom:30px; }
-ol li, .list li { color:#888; line-height:20px; }
+ol li, .list li { color:#605754; line-height:20px; }
 	ol { list-style-type:decimal; }
 	.square { list-style-type:square; }
 	.circle { list-style-type:circle; }
@@ -363,11 +354,6 @@ ol li, .list li { color:#888; line-height:20px; }
 
 .pic2{
     width:18%;
-	vertical-align: top;
-}
-
-.week{
-    width:20%;
 	vertical-align: top;
 }
 

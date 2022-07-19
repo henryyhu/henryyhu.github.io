@@ -3,7 +3,7 @@
 /*========================*/
 
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, img, strong, ol, ul, li, form, input { margin: 0; padding: 0; border: 0; vertical-align: baseline; }
-ul { list-style:none; list-style-position:outside; }
+ul { list-style:none; list-style-position:inside; }
 
 
 /*========================*/
@@ -143,6 +143,8 @@ blockquote { color:#aaa; font-size:15px; font-style:italic;  margin:20px 0px 20p
 /*=========================*/
 /*===  6. Main Content  ===*/
 /*=========================*/
+
+li.side {font-size:14px; }
 
 .home_tagline h1 { text-align:center; font-size:32px; line-height:40px; color:#605754; }
 .home_tagline h1 a { color:#3B5AF2; }

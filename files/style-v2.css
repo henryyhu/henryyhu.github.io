@@ -98,9 +98,9 @@ a:hover {
     object-fit: contain;
 }
 
-.site-identity span {
-    font-family: var(--serif);
-    font-size: 0.98rem;
+.site-identity > span:not(.identity-copy) {
+    font-family: var(--sans);
+    font-size: 0.9rem;
     font-weight: 600;
     line-height: 1.2;
 }
@@ -135,7 +135,7 @@ nav a {
     padding: 10px 0;
     border-bottom: 2px solid transparent;
     color: #4f5155;
-    font-size: 0.88rem;
+    font-size: 1rem;
     font-weight: 650;
     text-decoration: none;
 }
@@ -233,7 +233,7 @@ h1 {
     border-bottom: 1px solid var(--line);
     color: var(--ink);
     font-family: var(--serif);
-    font-size: 1.52rem;
+    font-size: 1.75rem;
     font-weight: 400;
     line-height: 1.25;
 }
@@ -265,7 +265,7 @@ h1 {
 
 .honors-list {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1px;
     border: 1px solid var(--line);
     background: var(--line);
@@ -333,7 +333,7 @@ h1 {
 
 .side-section h2 {
     margin-bottom: 18px;
-    font-size: 1.3rem;
+    font-size: 1.55rem;
 }
 
 .service-list {
@@ -360,8 +360,8 @@ h1 {
 }
 
 .honors-list li {
-    min-height: 132px;
-    padding: 22px;
+    min-height: 160px;
+    padding: 25px;
     background: var(--soft);
 }
 
@@ -370,12 +370,12 @@ h1 {
     margin-bottom: 10px;
     color: var(--scarlet);
     font-family: var(--serif);
-    font-size: 1.05rem;
+    font-size: 1.22rem;
 }
 
 .honors-list span {
     color: var(--muted);
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     line-height: 1.55;
 }
 
@@ -386,7 +386,7 @@ h1 {
 
 .honors-list b {
     color: var(--ink);
-    font-size: 0.84rem;
+    font-size: 1rem;
     font-weight: 700;
     line-height: 1.4;
 }
@@ -394,8 +394,8 @@ h1 {
 .honors-list small {
     margin-top: 7px;
     color: var(--muted);
-    font-size: 0.74rem;
-    line-height: 1.6;
+    font-size: 0.84rem;
+    line-height: 1.55;
 }
 
 .site-footer {
@@ -432,16 +432,6 @@ h1 {
 .interior-main {
     flex: 1 0 auto;
     padding-block: 48px 80px;
-}
-
-.page-intro {
-    margin-bottom: 26px;
-}
-
-.page-intro h1 {
-    max-width: 760px;
-    margin: 0;
-    font-size: clamp(2rem, 4vw, 2.35rem);
 }
 
 .archive-heading {
@@ -616,13 +606,6 @@ h1 {
     max-width: 900px;
 }
 
-.mentoring-section .archive-heading > span {
-    color: var(--scarlet);
-    font-size: 0.88rem;
-    font-weight: 700;
-    letter-spacing: 0.01em;
-}
-
 .mentee-list {
     margin: 0;
     padding: 0;
@@ -788,14 +771,6 @@ h1 {
 
     .interior-main {
         padding-block: 38px 64px;
-    }
-
-    .page-intro {
-        margin-bottom: 24px;
-    }
-
-    .page-intro h1 {
-        font-size: 2.15rem;
     }
 
     .archive-heading {

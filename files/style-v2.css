@@ -238,6 +238,10 @@ h1 {
     line-height: 1.25;
 }
 
+.honors-section h2 {
+    margin-bottom: 16px;
+}
+
 .section-title-row {
     display: flex;
     align-items: baseline;
@@ -266,9 +270,7 @@ h1 {
 .honors-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1px;
-    border: 1px solid var(--line);
-    background: var(--line);
+    gap: 0;
 }
 
 .publication-list {
@@ -360,9 +362,20 @@ h1 {
 }
 
 .honors-list li {
+    position: relative;
     min-height: 160px;
     padding: 25px;
-    background: var(--soft);
+    background: var(--white);
+}
+
+.honors-list li + li::before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    bottom: 0;
+    left: 0;
+    width: 1px;
+    background: var(--line);
 }
 
 .honors-list strong {
@@ -672,6 +685,18 @@ h1 {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .honors-list li + li::before {
+        display: none;
+    }
+
+    .honors-list li:nth-child(even)::before {
+        display: block;
+    }
+
+    .honors-list li:nth-child(n + 3) {
+        border-top: 1px solid var(--line);
+    }
+
     .content-grid {
         grid-template-columns: 1fr;
     }
@@ -750,6 +775,14 @@ h1 {
 
     .honors-list {
         grid-template-columns: 1fr;
+    }
+
+    .honors-list li:nth-child(even)::before {
+        display: none;
+    }
+
+    .honors-list li + li {
+        border-top: 1px solid var(--line);
     }
 
     .content-grid {
